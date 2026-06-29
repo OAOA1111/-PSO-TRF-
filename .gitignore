@@ -1,0 +1,18 @@
+# 忽略 Python 编译缓存
+__pycache__/
+*.py[cod]
+
+# 忽略系统隐藏文件
+.DS_Store
+Thumbs.db
+
+# 🚨 忽略所有图片文件（防止仓库变虚胖）
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.csv
+
+# 如果你有虚拟环境，也忽略掉
+venv/
+env/
